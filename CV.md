@@ -39,6 +39,7 @@ I am an HR-manager who has decided to start a career in IT.
 - CSS
 - GitHub
 - Excel
+- JavaScript
 
 ***
 
