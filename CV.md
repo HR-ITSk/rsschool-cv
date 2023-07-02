@@ -64,7 +64,7 @@ I am an HR-manager who has decided to start a career in IT.
 
 ## Project
 
-[CV Stanislav Skvortsov in GitHub](https://HR-ITSk.github.io/rsschool-cv/cv)
+[CV Stanislav Skvortsov in GitHub](https://HR-ITSk.github.io/rsschool-cv/CV)
 
 ## Work experience
 
