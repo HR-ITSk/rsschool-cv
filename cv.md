@@ -21,7 +21,7 @@
 
 ***
 
-##About me 
+## About me 
 
 I am an HR-manager who has decided to start a career in IT.
 
