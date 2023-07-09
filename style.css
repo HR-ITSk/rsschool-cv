@@ -1,3 +1,320 @@
-h1 {
-    color: blue;
+@font-face {
+    font-family: "Lorin";
+    src: url(assets/fonts/TTF/Lorin-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Lorin";
+    src: url(assets/fonts/TTF/Lorin-Regular.ttf);
+}
+
+@media (max-width: 768px) {
+.section {
+    width: 100%;
+ }
+}
+
+* {
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+   min-height: 100vh;
+   margin: 0 auto;
+   padding: 0;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   font-family: "Lorin";
+}
+
+.header {
+    height: 60px;
+    background-color: #a5b6ec;
+    border-bottom: 5px solid #ffffff;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav {
+}
+
+.nav__list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav__item {
+}
+
+.nav__link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .3s;
+    color: #062dcd;
+    font-size: 16px;
+}
+
+.nav__link:hover {
+    color: bisque;
+}
+
+.main {
+}
+
+.main__container {
+    max-width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    width: 50%;
+    padding: 10px;
+}
+
+.section:hover {
+    background-color: #a5b6ec;
+    color: bisque;
+    transition: 0.5s;
+}
+
+.section__profile {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 25px;
+}
+
+.section__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.list__item {
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 25px;
+}
+
+.list__item:before {
+    content: "";
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.contacts__item:nth-child(1):before {
+    background-image: url(assets/img/phone-icon.png);
+    width: 18px;
+    height: 18px;
+    top: 3px;
+    left: 0px;
+}
+
+.contacts__item:nth-child(2):before {
+    background-image: url(assets/img/email-icon.png);
+    width: 18px;
+    height: 18px;
+    top: 3px;
+    left: 0px;
+}
+
+.contacts__item:nth-child(3):before {
+    background-image: url(assets/img/github-icon.png);
+    width: 18px;
+    height: 18px;
+    top: 3px;
+    left: 0px;
+}
+
+.contacts__item:nth-child(4):before {
+    background-image: url(assets/img/discord-icon.png);
+    width: 18px;
+    height: 18px;
+    top: 3px;
+    left: 0px;
+}
+
+.contacts__item:nth-child(5):before {
+    background-image: url(assets/img/telegram-icon.png);
+    width: 18px;
+    height: 18px;
+    top: 3px;
+    left: 0px;
+}
+
+.myskills__item:nth-child(5n+1) {
+    padding: 0;
+}
+
+.myskills__item:nth-child(2):before {
+    background-image: url(assets/img/icon-html5.png);
+    width: 18px;
+    height: 18px;
+    top: 3px;
+    left: 0px;
+}
+
+.myskills__item:nth-child(3):before {
+    background-image: url(assets/img/icon-css3.png);
+    width: 18px;
+    height: 18px;
+    top: 3px;
+    left: 0px;
+}
+
+.myskills__item:nth-child(4):before {
+    background-image: url(assets/img/icon-js.png);
+    width: 18px;
+    height: 18px;
+    top: 3px;
+    left: 0px;
+}
+
+.myskills__item:nth-child(5):before {
+    background-image: url(assets/img/github-icon.png);
+    width: 18px;
+    height: 18px;
+    top: 3px;
+    left: 0px;
+}
+
+.myskills__item:nth-child(7):before {
+    background-image: url(assets/img/icon-excel48.png);
+    width: 18px;
+    height: 18px;
+    top: 3px;
+    left: 0px;
+}
+
+.myskills__item:nth-child(8):before {
+    background-image: url(assets/img/googledocs-icon.png);
+    width: 18px;
+    height: 18px;
+    top: 3px;
+    left: 0px;
+}
+
+.myskills__item:nth-child(9):before {
+    background-image: url(assets/img/1С-icon.png);
+    width: 18px;
+    height: 18px;
+    top: 3px;
+    left: 0px;
+}
+
+.workexperience__item-date {
+    font-style: italic;
+    font-size: 14px;
+   text-decoration: underline;
+}
+
+.workexperience__item-employer {
+    font-size: large;
+    font-weight: 800; 
+}
+
+.myproject__link {
+    position: relative;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+.myproject__link:before {
+    content: "";
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(assets/img/icon-cv.png);
+    width: 38px;
+    height: 38px;
+    top: 3px;
+    left: 0px;
+}
+
+.languages__item:nth-child(1):before {
+    background-image: url(assets/img/icons-russia.png);
+    width: 18px;
+    height: 18px;
+    top: 3px;
+    left: 0px;
+}
+
+.languages__item:nth-child(2):before {
+    background-image: url(assets/img/icons-UK.png);
+    width: 18px;
+    height: 18px;
+    top: 3px;
+    left: 0px;
+}
+
+.education__item:nth-child(even) {
+    font-style: italic;
+    font-size: 14px;
+   text-decoration: underline;
+}
+
+.education__item:nth-child(odd) {
+    font-size: large;
+    font-weight: 800;
+}
+
+.footer {
+    background-color: #a5b6ec;
+    padding: 20px;
+    border-top: 5px solid #ffffff;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.github__link {
+    position: relative;
+    padding: 0 12px;
+    line-height: 50px;
+    color: #062dcd;
+}
+
+.github__link:hover {
+    position: relative;
+    padding: 0 12px;
+    line-height: 50px;
+    color:bisque;
+}
+
+.rss__link {
+    width: 150px;
+    height: 50px;
+    background-image: url(assets/svg/rs_school_js.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+p {
+    line-height: 30px;
 }
