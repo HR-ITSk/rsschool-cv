@@ -3,17 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
     <link rel="stylesheet" href="style.css">
-    <title>CV Skvortsov Stanislav</title>
+    <link rel="icon" href="assets/favicon/photoSkvortsov.ico">
 </head>
 <body>
-    <h1>Here will be my SV</h1>
-    <h2>What information about me will be here?</h2>
-    <ul>
-        <li>Contacts</li>
-        <li>Skills</li>
-        <li>Completed projects</li>
-        <li>Education</li>
-    </ul>
+    <header class="header">
+        <div class="container header__container">
+            <div class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#Contacts" class="nav__link">Contacts</a></li>
+                    <li class="nav__item"><a href="#Aboutme" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#Myskills" class="nav__link">My skills</a></li>
+                    <li class="nav__item"><a href="#Education" class="nav__link">Education</a></li>
+                    <li class="nav__item"><a href="#Languages" class="nav__link">Languages</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container main__container">
+                <div class="section section__profile" id="Profile">
+                    <img src="assets/img/photoSkvortsov.jpeg" alt="foto Stanislav">
+                    <div class="section__title">
+                        <h1>Skvortsov Stanislav</h1>
+                        <h3>Junior front-end developer</h3>
+                    </div>
+                </div>
+                <div class="section" id="Contacts">
+                    <h2 class="section__title">Contacts</h2>
+                        <ul class="section__list">
+                            <li class="list__item contacts__item"><b>Phone</b> +79653905286 (<em>Russia</em>) +38268655480 (<em>Montenegro</em>)</li>
+                            <li class="list__item contacts__item"><b>E-mail</b>  for.skvortsovstan@gmail.com</li>
+                            <li class="list__item contacts__item"><b>GitHub</b>  HR-ITSk</li>
+                            <li class="list__item contacts__item"><b>Discord</b>  Stanislav(@HR-ITSk)</li>
+                            <li class="list__item contacts__item"><b>Telegram</b>  Stanislav</li>
+                        </ul>
+                    </div>
+                    <div class="section" id="Aboutme">
+                        <h2 class="section__title">About me</h2>
+                          <p>I am an HR-manager who has decided to start a career in IT. Currently I am studying the <em>JavaScript/Front-end course at Rolling Scopes</em> (RSSchool). I actively study the basics of programming and front-end development.I will be glad to learn from the experience of professionals and find an internship in an IT company.</p>
+                    </div>
+                <div class="section" id="Myskills">
+                    <h2 class="section__title">My skills</h2>
+                        <ul class="section-list">
+                            <li class="list__item myskills__item"><b>Web-development</b></li>
+                            <li class="list__item myskills__item">HTML5</li>
+                            <li class="list__item myskills__item">CSS3</li>
+                            <li class="list__item myskills__item">JavaScript</li>
+                            <li class="list__item myskills__item">GitHub</li>
+                            <li class="list__item myskills__item"><b>Other</b></li>
+                            <li class="list__item myskills__item">Excel</li>
+                            <li class="list__item myskills__item">Google Docs</li>
+                            <li class="list__item myskills__item">1:C</li>
+                        </ul>
+                    </div>
+                    <div class="section" id="Workexperience">
+                        <h2 class="section__title">Work experience</h2>
+                            <ul class="section__list">
+                              <li class="list__item workexperience__item-date">10/2022 - now </li>
+                              <li class="list__item workexperience__item-employer">Freelance</li>
+                              <li class="list__item workexperience__item">advising clients on labor law issues</li>
+                              <li class="list__item workexperience__item">writing articles for thematic magazines and websites</li>
+                              <li class="list__item workexperience__item-date">02/2014 - 10/2022</li>
+                              <li class="list__item workexperience__item-employer">Moscow State Employment Center</li>
+                              <li class="list__item workexperience__item-jobtitle">Head of Human Resources Department</li>
+                              <li class="list__item workexperience__item-date">04/2011 - 02/2014</li>
+                              <li class="list__item workexperience__item-employer">Mil Moscow Helicopter Plant</li>
+                              <li class="list__item workexperience__item-jobtitle">HR-manager</li>
+                            </ul>
+                    </div>
+                    <div class="section" id="Myproject">
+                        <h2 class="section__title">My project</h2>
+                        <p>As my first project, I will present mine CV here.</p>
+                        <a class="myproject__link" href="https://HR-ITSk.github.io/rsschool-cv/">My CV</a>
+                    </div>
+                    <div class="section" id="Code">
+                        <h2 class="section__title">Code example</h2>
+                        <div class="code">
+                            <pre class="snippet">
+                                <code>
+                                    function saleFanta(n) {
+                                        if (n&lt;5){
+                                            return n * 100;
+                                        } else if (n&gt;=5 && n&lt;10) {
+                                            return n * 95;
+                                        } else {
+                                            return n * 90;
+                                        }
+                                    }
+                                </code>
+                            </pre>
+                        </div>
+                    </div>
+                <div class="section" id="Languages">
+                    <h2 class="section__title"> Languages</h2>
+                        <ul class="section__list">
+                            <li class="list__item languages__item">Russian - native speaker</li>
+                            <li class="list__item languages__item">English - B1</li>
+                        </ul>
+                </div>
+                <div class="section" id="Education">
+                <h2 class="section__title ">Education</h2>
+                    <ul class="section__list">
+                        <li class="list__item education__item">RS School - JavaScript/Front-end. Stage 0</li>
+                        <li class="list__item education__item">June 2023 - now</li>
+                        <li class="list__item education__item">Institute of Applied Informatics and Control (Moscow) - finance and credit</li>
+                        <li class="list__item education__item">September 2005 - June 2009</li>
+                    </ul>
+                </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer__container">
+            <div>
+                2023
+                <a href="https://github.com/HR-ITSk" class="github__link">My GitHub</a>
+            </div>
+           <a href="https://rs.school/js-stage0/" class="rss__link"></a>
+        </div>
+    </footer>
 </body>
 </html>
